@@ -1,5 +1,9 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
-  "framework": null
+  "framework": null,
+  "env": {
+    "REACT_APP_API_URL": "https://hanokalure-sms-spam-detector.hf.space",
+    "NEXT_PUBLIC_API_URL": "https://hanokalure-sms-spam-detector.hf.space"
+  }
 }
